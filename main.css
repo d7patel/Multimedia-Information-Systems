@@ -1,0 +1,113 @@
+/*
+ Filename: main.css
+ Written by: Dhruv Patel
+ Purpose: Make my own webpage for CSCI-435 class
+ Date: 17 January 2019
+ Modification History:
+ 16 January 2019 created the first file.
+
+*/
+
+body {
+    font-family: arial;
+    background: #4A5759;
+    background: linear-gradient(#B388EB, #8093F1, #00B2CA);
+    background: url("background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#homeWork {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 40px;
+    background: linear-gradient(45deg, rgb(126, 43, 235), rgb(82, 102, 204), rgb(3, 201, 228));
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-size:1.2em;
+}
+
+.button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    background:transparent;
+    border:solid 2px rgb(87, 23, 160);
+    border-radius: 20px;
+    color:  rgb(0, 0, 0);
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+.button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    background:transparent;
+    border:solid 2px rgb(101, 58, 182);    
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+.button3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    background:transparent;
+    border:solid 2px rgb(48, 20, 204);    
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+.button4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 40px;
+    background:transparent;
+    border:solid 2px rgb(67, 85, 240);    
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
+.button5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 40px;
+    background:transparent;
+    border:solid 2px rgb(28, 136, 236);    
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+h1, h2, p, img{
+    text-align:center;
+}
+
+
+
+/** background: linear-gradient(45deg, #B388EB, #8093F1); */
